@@ -31,6 +31,6 @@ Whether you're debugging a memory leak or just enjoy the aesthetic of a high-per
 # Example installation flow
 git clone https://github.com/yourusername/PyRat.git
 cd PyRat
-pip install -r requirements.txt
-python main.py
+uv sync
+uv run main.py
 ```
