@@ -29,4 +29,3 @@ Whether you're debugging a memory leak or just enjoy the aesthetic of a high-per
 
 ---
 
-Would you like me to help you write a **README.md** file for the GitHub repository, or perhaps a **tagline** for the project?
