@@ -32,6 +32,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
     uv sync
     ```
 
+    > **Note:** `uv sync` automatically creates and manages a `.venv` directory for you. You don't need to manually verify or activate it when using `uv run`.
+
 ## ⚓ Execution
 
 To launch the PyRat system monitor:
