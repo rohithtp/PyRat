@@ -1,7 +1,7 @@
 import sys
 import psutil
 import time
-from ratatui import App, Terminal, Paragraph, Gauge, Sparkline, split_h, split_v, Color, Style
+from ratatui import App, Terminal, Paragraph, Gauge, Sparkline, split_h, split_v, Color, Style, Mod
 
 class PyRatState:
     def __init__(self):
@@ -51,7 +51,7 @@ def render(term: Terminal, state: PyRatState):
         title_text = "🏴‍☠️  PyRat: The High-Seas System Monitor  🏴‍☠️"
         title = Paragraph.from_text(title_text)
         title.set_block_title("Manifest", True)
-        title.set_style(Style(fg=Color.Cyan))
+        title.set_style(Style(fg=Color.Cyan, mods=Mod.BOLD))
         term.draw_paragraph(title, header_r)
 
         # --- Content ---
